@@ -49,4 +49,14 @@ table {
 
 #nav-bar{
 	position: fixed;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+@media screen and(max-width: 420px) {
+	body{
+		background-color: black;
+		color: white;
+	}
+
 }
